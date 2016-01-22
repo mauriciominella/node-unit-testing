@@ -1,11 +1,11 @@
-'use strict';
+/*'use strict';
 
 var chai = require('chai'),
   sinon = require('sinon'),
   expect = chai.expect;
 chai.should();
 
-describe('sinon tests', function(){
+xdescribe('sinon tests', function(){
   var student, schedule;
 
   beforeEach(function(){
@@ -90,3 +90,4 @@ describe('sinon tests', function(){
     });
   });
 });
+*/

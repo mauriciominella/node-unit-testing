@@ -18,7 +18,8 @@
   "dependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
-    "sinon": "^1.17.2"
+    "sinon": "^1.17.2",
+    "uuid": "^2.0.1"
   },
   "devDependencies": {
     "gulp": "^3.9.0",

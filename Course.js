@@ -77,8 +77,22 @@ _p.addTimes = function(days, times){
       times = [times];
     }
 
+    var validDays = [
+      'Monday',
+      'Tuesday',
+      'Wednesday',
+      'Thursday',
+      'Friday',
+      'Saturday',
+      'Sunday'
+    ];
+
     days.forEach(function(day){
-      time.forEach(function(time){
+      if(validDays.indexOf(day) === -1){
+        throw new Error(day + 'is not a valid day');
+      }
+      
+      times.forEach(function(time){
         me.times.push({
           "day":day,
           "time": time
